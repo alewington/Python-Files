@@ -22,10 +22,11 @@ print(list_of_scores)
 # Chose A style and keep with it!
 
 # e.g. snake_case, camelCase, PascalCase, etc.
-snake_case = "This is snake case"
-camelCase = "This is camel case"
-PascalCase = "This is Pascal case, don't use"
+snake_case = "This is snake_case"
+camelCase = "This is camelCase"
+PascalCase = "This is Pascal Case, don't use"
 
 print(snake_case)
 print(camelCase)
 print(PascalCase)  # Don't use PascalCase. too similar to CONSTANTS
+print("Choose one style and keep to it!")

@@ -34,3 +34,19 @@ print(type(number_of_cars_str))  # Output: <class 'str'>
 # it to a string using the str() function. The resulting variable
 # number_of_cars_str is now a string representation of the original
 # integer value.
+
+# other examples of casting
+pi = 3.14159
+pi_int = int(pi)
+print(pi_int)  # Output: 3
+print(type(pi_int))  # Output: <class 'int'>
+
+age_str = "25"
+age_int = int(age_str)
+print(age_int)  # Output: 25
+print(type(age_int))  # Output: <class 'int'>
+
+is_raining = bool(False)
+print(is_raining)  # Output: 'False'
+print(type(is_raining))  # Output: <class 'bool'>
+

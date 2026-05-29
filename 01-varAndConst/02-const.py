@@ -1,9 +1,9 @@
 # Constants
 
-# Constants are variables that cannot be changed.
-# In Python, we can use the 'const' keyword to declare a constant variable.
+# Constants are values that cannot be changed.
+# In Python, we can use the 'const' keyword to declare a constant value.
 # However, Python does not have a built-in 'const' keyword.
-# Instead, we can use a convention to indicate that a variable is a constant
+# Instead, we can use a convention to indicate that a vae is a constant
 # by using uppercase
 
 PI = 3.14

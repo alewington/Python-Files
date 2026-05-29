@@ -49,4 +49,3 @@ print(type(age_int))  # Output: <class 'int'>
 is_raining = bool(False)
 print(is_raining)  # Output: 'False'
 print(type(is_raining))  # Output: <class 'bool'>
-

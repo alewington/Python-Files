@@ -5,26 +5,27 @@
 x = 1
 steps_taken = 1000
 speedOfCar = 88
-first_Name = "Feida"
-last_Name = "Zhang"
+first_name = "Feida"
+last_name = "Zhang"
 lightsOn = True
-list_Of_Scores = [90, 80, 70, 60]
+list_of_scores = [90, 80, 70, 60]
 
 print(x)
 print(steps_taken)
 print(speedOfCar)
-print(first_Name)
-print(last_Name)
+print(first_name)
+print(last_name)
 print(lightsOn)
-print(list_Of_Scores)
+print(list_of_scores)
+
 # You can display them in these fashion.
 # Chose A style and keep with it!
 
 # e.g. snake_case, camelCase, PascalCase, etc.
 snake_case = "This is snake case"
 camelCase = "This is camel case"
-PascalCase = "This is Pascal case"
+PascalCase = "This is Pascal case, don't use"
 
 print(snake_case)
 print(camelCase)
-print(PascalCase)
+print(PascalCase)  # Don't use PascalCase. too similar to CONSTANTS

@@ -24,7 +24,7 @@ SPEED_OF_LIGHT = 299792458
 # indicate that a variable is a constant.
 
 from typing import final  # This should be at the top of the page!
-# breaking flake402.
+# breaking flake e402.
 
 
 @final

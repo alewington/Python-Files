@@ -24,6 +24,7 @@ person_info = {"name": "Alex", "age": 30}
 # int() - converts to integer
 # float() - converts to float
 # str() - converts to string
+
 # Example of casting
 number_of_cars = 5
 print(type(number_of_cars))  # Output: <class 'int'>

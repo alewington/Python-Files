@@ -62,6 +62,15 @@ def modify_global_variable():
     global global_variable
 # <-- we need to declare the variable as global to modify it in a function
     global_variable = "I have been modified"
+    """ Note: By declaring 'global global_variable' inside the function
+    'modify_global_variable', we are telling Python that we want to use the
+    global variable 'global_variable' instead of creating a new local variable.
+    This allows us to modify the value of the global variable from within the function.
+    
+    Args: None
+    
+    Returns: None
+    """
 
 
 modify_global_variable()

@@ -13,6 +13,7 @@ print(name)
 # or float() functions.
 
 age = int(input("Enter your age: "))
-print(str(age))
+print(age)
 
-# Did you notice the casting of int? line 16.
+# Did you notice the casting of int? line 15.
+# Just demoing that you can change the data type of the input of data.

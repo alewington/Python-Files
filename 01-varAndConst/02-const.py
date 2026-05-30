@@ -22,28 +22,3 @@ SPEED_OF_LIGHT = 299792458
 # ADVANCED
 # In Python, we can also use the 'final' keyword from the 'typing' module to
 # indicate that a variable is a constant.
-
-from typing import final  # This should be at the top of the page!
-# breaking flake e402.
-
-
-@final
-class Constants:
-    PI = 3.14
-    GRAVITY = 9.8
-    SPEED_OF_LIGHT = 299792458
-
-# In the above code, we have defined a class called 'Constants' and decorated
-# it with the '@final' decorator. We can access the constants defined in the
-# 'Constants' class using the class name, like this:
-
-
-print(Constants.PI)
-print(Constants.GRAVITY)
-print(Constants.SPEED_OF_LIGHT)
-
-
-# Output:
-# 3.14
-# 9.8
-# 299792458

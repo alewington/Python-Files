@@ -65,10 +65,11 @@ def modify_global_variable():
     """ Note: By declaring 'global global_variable' inside the function
     'modify_global_variable', we are telling Python that we want to use the
     global variable 'global_variable' instead of creating a new local variable.
-    This allows us to modify the value of the global variable from within the function.
-    
+    This allows us to modify the value of the global variable
+    from within the function.
+
     Args: None
-    
+
     Returns: None
     """
 

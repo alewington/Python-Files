@@ -5,7 +5,7 @@
 x = 1
 steps_taken = 1000
 speedOfCar = 88
-first_name = "Feida"
+first_name = "Yoshi"
 last_name = "Zhang"
 lightsOn = True
 list_of_scores = [90, 80, 70, 60]

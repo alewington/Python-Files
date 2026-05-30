@@ -12,7 +12,7 @@ print(name)
 # string to the desired data type using int()
 # or float() functions.
 # age = int(input("Enter your age: "))
-# print("You are " + str(age) + " years old.")
+# print(age)
 age = int(input("Enter your age: "))
 print(age)
 

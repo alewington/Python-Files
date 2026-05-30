@@ -1,11 +1,11 @@
-Text Type:,	str
+Text Type:,	str, , 
 Numeric Types:, int, float, complex
 Sequence Types:,	list, tuple, range
-Mapping Type:,	dict
-Set Types:,	set, frozenset
-Boolean Type:,	bool
+Mapping Type:,	dict, ,
+Set Types:,	set, frozenset,
+Boolean Type:,	bool, ,
 Binary Types:,	bytes, bytearray, memoryview
-None Type:,	NoneType
+None Type:,	NoneType, ,
 
 Good Video, https://www.youtube.com/watch?v=Gx5qb1uHss4
 created by Indently, a YouTube channel dedicated to teaching programming concepts in an engaging and easy-to-understand way. The video covers the various data types in Python. 

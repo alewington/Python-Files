@@ -8,3 +8,7 @@ print(sys.version)
     Returns:     None
     Raises:      None
 """
+
+# The output will show the version of Python being used to run this code.
+# Useful information to know what you are running against version specific
+# features or syntax.

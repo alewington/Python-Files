@@ -11,8 +11,6 @@
 
 # Example of using the NOT operator in Python
 
-a = True
-b = False
 print(not True)   # Output: False (the opposite of True)
 print(not False)  # Output: True (the opposite of False)
 

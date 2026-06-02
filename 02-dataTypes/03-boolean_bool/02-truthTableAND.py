@@ -11,8 +11,6 @@
 # False False False
 # Example of using the AND operator in Python
 
-a = True
-b = False
 print(True and True)  # Output: True (both True and True need to be True)
 print(True and False)  # Output: False (both True and False need to be True)
 print(False and True)  # Output: False (both False and True need to be True)

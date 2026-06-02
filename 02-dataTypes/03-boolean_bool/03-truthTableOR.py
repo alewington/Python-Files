@@ -13,8 +13,6 @@
 
 # Example of using the OR operator in Python
 
-a = True
-b = False
 print(True or True)  # Output: True (at least one of True or True needs
 # to be True)
 print(True or False)  # Output: True (at least one of True or False needs

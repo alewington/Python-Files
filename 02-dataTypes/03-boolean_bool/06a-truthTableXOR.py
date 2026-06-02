@@ -13,8 +13,6 @@
 
 # Example of using the XOR operator in Python
 
-a = True
-b = False
 print(True ^ True)  # Output: False (both operands are True)
 print(True ^ False)  # Output: True (only one operand is True)
 print(False ^ True)  # Output: True (only one operand is True)

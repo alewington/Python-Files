@@ -34,3 +34,6 @@ if is_raining:
     # Output: Don't forget to take an umbrella!
 else:
     print("Enjoy the sunshine!")
+
+# More in section 03-operators/04-logical/
+# all about logical operators and their truth tables.

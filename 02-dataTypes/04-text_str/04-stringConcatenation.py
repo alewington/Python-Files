@@ -121,6 +121,4 @@ print(table_with_fstring)
 #       Alice         |        30           |     New York        |
 #       Bob           |        25           |   Los Angeles       |
 
-
-
 # The full correct method will be shown with loops later.

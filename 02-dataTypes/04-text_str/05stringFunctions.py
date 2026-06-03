@@ -94,3 +94,6 @@ print(str_example.startswith("Hello"))
 print(str_example.endswith("!"))
 # This will print True to the console, demonstrating that the endswith()
 # method returns True because the string ends with the substring "!".
+
+# For extended list go here:
+# https://www.w3schools.com/python/python_strings_methods.asp

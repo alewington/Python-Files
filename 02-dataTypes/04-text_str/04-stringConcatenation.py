@@ -89,4 +89,3 @@ print(table)
 # This will print a formatted table to the console, demonstrating that the \t
 # escape character is used to create tab spaces between the columns, and the \n
 # escape character is used to create new lines for each row of the table.
-

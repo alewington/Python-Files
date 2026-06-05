@@ -17,7 +17,7 @@ print(f"{name} is {age} years old")  # Using f-string method
 print(f"{name} is {age} years old")
 
 # You can use the % operator to insert variables into a string:
-# Using %s
+# Using %s for (strings)
 print("Hello, %s!" % name)  # Output: Hello, Ghast!
 # Using %d for (integers)
 print("I have %d apples." % 5)  # Output: I have 5 apples.

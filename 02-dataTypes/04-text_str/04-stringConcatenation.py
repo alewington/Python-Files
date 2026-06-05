@@ -90,35 +90,3 @@ print(table)
 # escape character is used to create tab spaces between the columns, and the \n
 # escape character is used to create new lines for each row of the table.
 
-# Name,Age,City,
-# Alice,30,New York
-# Bob,25,Los Angeles
-
-# string f-string tables with formatting
-
-name1 = "Alice"
-age1 = 30
-city1 = "New York"
-name2 = "Bob"
-age2 = 25
-city2 = "Los Angeles"
-table_with_fstring = (
-    f"{'-'*63}\n"
-    f"{'Name':^20}|{'Age':^20}|{'City':^20}|\n"
-    f"{'-'*63}\n"
-    f"{name1:^20}|{age1:^20}|{city1:^20}|\n"
-    f"{name2:^20}|{age2:^20}|{city2:^20}|\n"
-    )
-print(table_with_fstring)
-
-# This will print a formatted table to the console, demonstrating that the
-# f-string allows you to embed variables directly within the string,
-# and the \n escape character is used to create
-# new lines for each row of the table. The resulting output will be:
-# ---------------------------------------------------------------
-#        Name         |        Age          |        City         |
-# ----------------------------------------------------------------
-#       Alice         |        30           |     New York        |
-#       Bob           |        25           |   Los Angeles       |
-
-# The full correct method will be shown with loops later.

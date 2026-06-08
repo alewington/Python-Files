@@ -34,12 +34,12 @@ print("I have {0} apples.".format(5))  # Output: I have 5 apples
 
 # string f-string tables with formatting
 
-name1 = "Alice"
+name1 = "Steve"
 age1 = 30
-city1 = "New York"
-name2 = "Bob"
+city1 = "Nether"
+name2 = "Alex"
 age2 = 25
-city2 = "Los Angeles"
+city2 = "The End"
 table_with_fstring = (
     f"{'-'*63}\n"
     f"{'Name':^20}|{'Age':^20}|{'City':^20}|\n"
@@ -60,3 +60,17 @@ print(table_with_fstring)
 #       Bob           |        25           |   Los Angeles       |
 
 # The full correct method will be shown with loops later.
+
+# Playing with the gaps
+
+print(f"{name1:,^30}")
+print(f"{name1:^30}")
+print(f"{name1:,<30}")  # default
+print(f"{name1:<30}")  # default
+print(f"{name1:,>30}")
+print(f"{name1:>30}")
+
+# putting in calculations to f-string
+
+print(f" {5*3:->10} Meters")
+print(f"£{15.00+13.75:->10}")

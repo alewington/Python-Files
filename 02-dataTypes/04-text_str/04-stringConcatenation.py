@@ -35,7 +35,7 @@ print(joined_str)
 # You can also use f-strings (formatted string literals) for concatenation,
 # which allows you to embed expressions inside string literals.
 
-name = "Alice"
+name = "Aliceex"
 greeting = f"Hello, {name}!"
 print(greeting)
 
@@ -72,7 +72,7 @@ print(concatenated_with_format)
 
 # Also f-strings is easier for formating multiple variables in a string.
 
-name = "Alice"
+name = "Alex"
 age = 30
 greeting_with_fstring = f"Hello, my name is {name} and I am {age} years old."
 print(greeting_with_fstring)
@@ -84,7 +84,7 @@ print(greeting_with_fstring)
 # using the % operator or the format() method.
 
 # string tables
-table = "Name\tAge\tCity\nAlice\t30\tNew York\nBob\t25\tLos Angeles"
+table = "Name\tAge\tCity\nAlex\t30\tThe End\nSteve\t25\tNether"
 print(table)
 # This will print a formatted table to the console, demonstrating that the \t
 # escape character is used to create tab spaces between the columns, and the \n

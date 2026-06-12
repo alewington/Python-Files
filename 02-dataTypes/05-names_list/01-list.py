@@ -2,14 +2,14 @@
 
 # Lists are ordered collections of items. Items can be of different types.
 # For example, a list could contain strings, integers, and even other lists.
-names = ["Alice", "Bob"]
+names = ["Steve", "Alex"]
 print(names)
 
 # 1. Accessing List Elements
 print(names[0])
 
 # 2. Modifying List Elements
-names.append("David")
+names.append("Ender Dragon")
 print(names)
 
 # 3. Pop the last name from the list

@@ -5,7 +5,7 @@
 # 2. sorted() - returns a new list that is sorted,
 # leaving the original list unchanged
 
-names = ["Alice", "Bob", "Charlie", "David", "Creeper", "Alex"]
+names = ["End Dragon", "Steve", "Zombie", "Endermen", "Creeper", "Alex"]
 
 # Using sort()
 print("Original list:", names)

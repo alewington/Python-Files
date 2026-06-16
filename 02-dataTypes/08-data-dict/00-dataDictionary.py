@@ -26,7 +26,7 @@
 
 # A minecraft example would be
 # { "key": "value", "key2": "value2" }
-mincraft_biomes = {
+minecraft_biomes = {
                     "Pale_Garden": "#FFFFFF",
                     "Beach": "#00FFFF",
                     "Desert": "#EFE4B5",

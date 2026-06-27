@@ -48,3 +48,5 @@ while i < times_table:
 # what is different between the For and While Loop versions?
 
 # Is there advantages and disadvantages?
+
+# More to come on loops later.

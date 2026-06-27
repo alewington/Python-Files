@@ -5,7 +5,7 @@
 print(2**4)  # 16
 
 # You can use it with any numeric type, including floats and complex numbers:
-print((3+4j)**2)  # (7-8j)
+print((3+4j)**2)  # (-7j+24)
 
 # The exponentiation operator is right associative, so you can
 # write a ** b ** c as a ** b * c.

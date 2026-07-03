@@ -5,14 +5,14 @@
 # to fill it up in Python 3.
 
 # Assigning integers
-numInt = 100
+numInt: int = 100
 
 print(numInt)  # prints 100 defaults as int
 print(type(numInt))  # prints <class 'int'>
 
 
 # casting to int
-numInt2 = int(1.59)  # float to int
+numInt2: int = int(1.59)  # float to int
 print(numInt2)  # prints 1
 print(type(numInt2))  # prints <class 'int'>
 
@@ -24,6 +24,6 @@ print(type(numInt2))  # prints <class 'int'>
 # Did you know?
 
 # You can also assign integers with underscores to make them more readable
-numInt2 = 1_000_000
+numInt2: int = 1_000_000
 print(numInt2)  # prints 1000000
 print(type(numInt2))  # prints <class 'int'>

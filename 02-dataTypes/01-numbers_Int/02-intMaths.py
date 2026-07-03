@@ -4,40 +4,40 @@
 print(3+5)  # prints 8
 
 # Adding out side of the print statement.
-addTwoNumbers = 25 + 35
+addTwoNumbers: int = 25 + 35
 print(addTwoNumbers)  # prints 60
 
 # You can also add variables that hold integers
-numAdd1 = 23
-numAdd2 = 21
+numAdd1: int = 23
+numAdd2: int = 21
 print(numAdd1 + numAdd2)  # prints 44
 
 # Subtraction
 print(10 - 4)  # prints 6
 
 # You can also subtract variables that hold integers
-numSub1 = 50
-numSub2 = 20
+numSub1: int = 50
+numSub2: int = 20
 print(numSub1 - numSub2)  # prints 30
 
 # Multiplication
 print(4 * 6)  # prints 24
 
 # You can also multiply variables that hold integers
-numMul1 = 7
-numMul2 = 8
+numMul1: int = 7
+numMul2: int = 8
 print(numMul1 * numMul2)  # prints 56
 
 # Division
 print(20 / 5)  # prints 4.0 because division always returns a float
 
 # You can also divide variables that hold integers
-numDiv1 = 100
-numDiv2 = 4
+numDiv1: int = 100
+numDiv2: int = 4
 print(numDiv1 / numDiv2)  # prints 25.0 because division always returns
 # a float
 # so...
-answerDiv = numDiv1 / numDiv2
+answerDiv: float = numDiv1 / numDiv2
 print(int(answerDiv))  # prints 25 because we are casting the float to an int.
 
 # Bidmas stands for brackets, indices, division, multiplication, addition and

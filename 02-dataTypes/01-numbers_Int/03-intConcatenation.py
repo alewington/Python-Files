@@ -7,7 +7,7 @@
 # concatenate an integer with a
 # string, you will encounter a TypeError because they are different data types.
 # For example:
-num = 10
+num: int = 10
 text = "The number is: "
 # This will raise a TypeError because you cannot concatenate a string and an
 # integer
@@ -21,8 +21,8 @@ print(text + str(num))  # prints "The number is: 10"
 # unexpected results if you are not careful. For example, if you have two
 # integers and you use the `+` operator, it will perform addition instead of
 # concatenation. For example:
-num1 = 5
-num2 = 10
+num1: int = 5
+num2: int = 10
 print(num1 + num2)  # prints 15 because it performs addition instead of
 # concatenation.
 print(str(num1) + str(num2))  # prints "510" because it concatenates the

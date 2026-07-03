@@ -6,4 +6,4 @@
 
 
 # Tuple with mixed data types
-mixed_tuple = (1, "hello", 3.14)
+mixed_tuple: tuple[int, str, float] = (1, "hello", 3.14)

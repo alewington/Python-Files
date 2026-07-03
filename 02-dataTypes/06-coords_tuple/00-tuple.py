@@ -12,32 +12,31 @@
 # replaced with another object.
 
 # Creating a tuple
-point = (10, 20)
+point: tuple[int, int] = (10, 20)
 
 # Accessing elements in a tuple
-x = point[0]
-y = point[1]
+x: int = point[0]
+y: int = point[1]
 
 # Modifying a tuple
 # point[0] = 30  # This will raise an error because tuples are immutable
 
 # Tuple with mixed data types
-mixed_tuple = (1, "hello", 3.14)
+mixed_tuple: tuple[int, str, float] = (1, "hello", 3.14)
 
 # Empty tuple
-empty_tuple = ()
-
+empty_tuple: tuple[()] = ()
 # Tuple with a single element
-single_element_tuple = (42,)  # Note the trailing comma
+single_element_tuple: tuple[int] = (42,)  # Note the trailing comma
 
 # Unpacking a tuple
 x, y = point
 
 # Length of a tuple
-length = len(point)
+length: int = len(point)
 
 # Checking if an item exists in a tuple
-exists = 10 in point
+exists: bool = 10 in point
 
 # Iterating over a tuple
 for element in point:

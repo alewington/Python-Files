@@ -16,11 +16,11 @@
 # those values.
 
 # Creating a tuple
-point = (10, 20)
+point: tuple[int, int] = (10, 20)
 
 # Accessing elements in a tuple
-x = point[0]
-y = point[1]
+x: int = point[0]
+y: int = point[1]
 
 # [0] denotes the position, for the example 0 represents the first position
 print(point[0])
@@ -28,11 +28,11 @@ print(point[0])
 print(point[1])
 
 # Empty tuple
-empty_tuple = ()
+empty_tuple: tuple[()] = ()
 print(empty_tuple)
 
 # Tuple with a single element
-single_element_tuple = (42,)  # Note the trailing comma
+single_element_tuple: tuple[int] = (42,)  # Note the trailing comma
 print(single_element_tuple)
 
 # Unpacking a tuple

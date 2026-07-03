@@ -6,11 +6,11 @@
 # 3. Print the tuple
 
 # Create an empty tuple
-emptyTuple = ()
+emptyTuple: tuple[()] = ()
 print(type(emptyTuple))  # <class 'tuple'>
 
-# Create a non-empty
-nonEmptyTuple = ("Hello", "World")
+# Create a non-empty tuple
+nonEmptyTuple: tuple[str, str] = ("Hello", "World")
 print(type(nonEmptyTuple))  # <class 'tuple'>
 
 # Add an element to the empty tuple
@@ -25,15 +25,7 @@ print(nonEmptyTuple)   # ('Hello', 'World', '!', '?')
 # by using the append() function. This function
 # adds an element at the end of the list
 
-emptyTuple = ()
+emptyTuple: tuple[()] = ()
 print(type(emptyTuple))  # <class 'tuple'>
-nonEmptyTuple = ("Hello", "World")
+nonEmptyTuple: tuple[str, str] = ("Hello", "World")
 print(type(nonEmptyTuple))  # <class 'tuple'>
-
-# Add elements to the empty tuple
-emptyTuple.append("!")
-print(emptyTuple)  # ('!',)
-
-# Add elements to the non-empty tuple
-nonEmptyTuple.append("?")
-print(nonEmptyTuple)  # ('Hello', 'World', '?')

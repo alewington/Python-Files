@@ -30,7 +30,7 @@ if 10 >= 10:
 
 
 # Boolean values can also be used to compare strings
-a = "Squirtle"
+a: str = "Squirtle"
 b = "Charmander"
 
 print(a == b)

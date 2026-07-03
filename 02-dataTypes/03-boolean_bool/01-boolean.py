@@ -7,18 +7,18 @@
 # Example of creating a boolean about light switches or placing a block in
 # minecraft
 
-light_switch_on = True
+light_switch_on: bool = True
 print(light_switch_on)  # Output: True
 
-block_placed = False
+block_placed: bool = False
 print(block_placed)  # Output: False
 
 # You can also perform logical operations with booleans, such as AND, OR,
 # and NOT.
 # Example of logical operations with booleans
 
-a = True
-b = False
+a: bool = True
+b: bool = False
 print(a and b)  # Output: False (both a and b need to be True)
 print(a or b)   # Output: True (at least one of a or b needs to be True)
 print(not a)    # Output: False (not True is False)
@@ -28,7 +28,7 @@ print(not b)    # Output: True (not False is True)
 # control the flow of a program based on certain conditions.
 # Example of using booleans in an if statement
 
-is_raining = True
+is_raining: bool = True
 if is_raining:
     print("Don't forget to take an umbrella!")
     # Output: Don't forget to take an umbrella!

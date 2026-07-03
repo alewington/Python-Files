@@ -27,8 +27,8 @@ print(False or False)  # Output: False (both False and False need to be True
 # one condition is met before executing a block of code.
 # Example of using the OR operator in an if statement
 
-is_weekend = True
-is_sunny = False
+is_weekend: bool = True
+is_sunny: bool = False
 if is_weekend or is_sunny:
     print("Let's go to the beach!")
     # Output: Let's go to the beach! (This will be printed because is_weekend

@@ -21,8 +21,8 @@ print(False and False)  # Output: False (both False and False need to be True)
 
 # Example of using the AND operator in an if statement
 
-is_weekend = True
-is_sunny = False
+is_weekend: bool = True
+is_sunny: bool = False
 
 if is_weekend and is_sunny:
     print("Let's go to the beach!")

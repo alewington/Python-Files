@@ -21,64 +21,72 @@
 # Examples for each assignment:
 # Assignment Operators
 # Useful for assigning values to variables.
-x = 10
+x: int = 10
 print(x)
 
 # Addition Assignment
 # useful for incrementing or decrementing a variable.
+x: int = 10
 x += 2
 print(x)
 
 # Subtraction Assignment
 # Useful for decrementing a variable.
+x: int = 10
 x -= 3
 print(x)
 
 # Multiplication Assignment
 # Useful for multiplying a variable.
+x: int = 10
 x *= 4
 print(x)
 
 # Division Assignment
 # Useful for dividing a variable.
-y = 50
+y: int = 50
 y /= 5
 print(y)
 
 # Modulus Assignment
 # Useful for getting the remainder of a variable.
-z = 60
+z: int = 60
 z //= 6
 print(z)
 
 
 # Exponentiation Assignment
 # Useful for raising a variable to the power of another.
+x: int = 10
 x **= 7
 print(x)
 
 # Bitwise AND Assignment
 # Useful for getting the bitwise AND of two variables.
-a = 8
+a: int = 8
 a &= 8
-print(x)
+print(a)
 
 # Bitwise OR Assignment
 # Useful for getting the bitwise OR of two variables.
+x: int = 8
 x |= 9
 print(x)
 
 # Bitwise XOR Assignment
 # Useful for getting the bitwise XOR of two variables.
+x: int = 8
 x ^= 10
 print(x)
 
 # Right Shift Assignment
-# Useful for shifting a variable to the right. <EOT>
+# Useful for shifting a variable to the right.
+x: int = 8
 x >>= 11
 print(x)
 
 # Left Shift Assignment
 # Useful for shifting a variable to the left.
+x: int = 8
 x <<= 12
 print(x)

@@ -1,8 +1,7 @@
 # XOR Truth Table
 
 # The XOR operator (or ^) is a logical operator that returns True if
-# exactly one
-# of the operands is True, and False if both operands are the same.
+# exactly one of the operands is True, and False if both operands are the same.
 # The truth table for the XOR operator is as follows:
 
 # A     B     A XOR B
@@ -23,8 +22,8 @@ print(False ^ False)  # Output: False (both operands are False)
 # condition is met before executing a block of code.
 # Example of using the XOR operator in an if statement
 
-is_weekend = True
-is_sunny = False
+is_weekend: bool = True
+is_sunny: bool = False
 if is_weekend ^ is_sunny:
     print("Let's go to the beach!")
     # Output: Let's go to the beach! (This will be printed because exactly

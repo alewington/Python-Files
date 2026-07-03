@@ -23,7 +23,7 @@ else:
 print("-"*50)
 print("For Loop example")
 print("-"*50)
-times_table = 10
+times_table: int = 10
 for i in range(1, times_table + 1):
     if i == 5:
         break

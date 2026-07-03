@@ -18,7 +18,7 @@ print(not False)  # Output: True (the opposite of False)
 # if a condition is not met.
 # Example of using the NOT operator in an if statement
 
-is_raining = False
+is_raining: bool = False
 if not is_raining:
     print("Let's go for a walk!")
     # Output: Let's go for a walk! (This will be printed because is_raining

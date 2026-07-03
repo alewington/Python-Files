@@ -7,12 +7,12 @@
 # new value.
 
 # Assigning a string to a variable:
-myString = "Hello World"
+myString: str = "Hello World"
 print(myString)
 
 # or
 
-myString = str("Hello World")  # force datatype
+myString: str = str("Hello World")  # force datatype
 print(myString)
 
 # Assigning an integer to a variable:
@@ -21,29 +21,29 @@ print(myInteger)
 
 # or
 
-myInteger = int(42)  # force datatype
+myInteger: int = int(42)  # force datatype
 print(myInteger)
 
 # Assigning a float to a variable:
-myFloat = 3.14159
+myFloat: float = 3.14159
 print(myFloat)
 
 # or
 
-myFloat = float(3.14159)  # force datatype
+myFloat: float = float(3.14159)  # force datatype
 print(myFloat)
 
 # Assigning a boolean to a variable:
-myBoolean = True
+myBoolean: bool = True
 print(myBoolean)
 
 # or
 
-myBoolean = bool(True)  # force datatype
+myBoolean: bool = bool(True)  # force datatype
 print(myBoolean)
 
 # Assigning a list to a variable:
-myList = [1, 2, 3]
+myList: list = [1, 2, 3]
 print(myList)
 
 for i in myList:

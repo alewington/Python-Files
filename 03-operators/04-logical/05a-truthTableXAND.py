@@ -1,40 +1,37 @@
-# XOR Truth Table
+# XAND Truth Table
 
-# The XOR operator (or ^) is a logical operator that returns True if
-# exactly one of the operands is True, and False if both operands
-# are the same.
-# The truth table for the XOR operator is as follows:
+# The XAND operator (or not ^) is a logical operator that returns True if both
+# operands are the same, and False if exactly one of the operands is True.
+# The truth table for the XAND operator is as follows:
 
-# A     B     A XOR B
-# True  True  False
-# True  False True
-# False True  True
-# False False False
+# A     B     A XAND B
+# True  True  True
+# True  False False
+# False True  False
+# False False True
 
-# Example of using the XOR operator in Python
+# Example of using the XAND operator in Python
+print(True ^ True)  # True
+print(True ^ False)  # False
+print(False ^ True)  # False
+print(False ^ False)  # True
 
-print(True ^ True)  # Output: False (both operands are True)
-print(True ^ False)  # Output: True (only one operand is True)
-print(False ^ True)  # Output: True (only one operand is True)
-print(False ^ False)  # Output: False (both operands are False)
+# The XAND operator is also known as the not-equal to (NE) operator.
+# It can be used in an if statement to check whether two values are equal
+# or not:
+a: bool = True
+b: bool = False
 
-# The XOR operator is often used in conditional statements to check if
-# exactly one condition is met before executing a block of code.
-# Example of using the XOR operator in an if statement
-
-is_weekend = True
-is_sunny = False
-if is_weekend ^ is_sunny:
-    print("Let's go to the beach!")
-    # Output: Let's go to the beach! (This will be printed because exactly
-    # one of is_weekend or is_sunny is True)
+if a != b:
+    print("a and b are not equal")
 else:
-    print("Maybe we can go to the park instead.")
-    # Output: (This will not be printed because both conditions are not met)
+    print("a and b are equal")
 
-# What is the answer to the above expression?
-# True ^ False
-
-# The answer is True because exactly one of the conditions is True.
-# Remember that the XOR operator returns True if exactly one operand is True,
-# and False if both operands are the same.
+# The result is "a and b are not equal" because a is True and b is False, so
+# they are not equal. The XAND operator can also be used in a while loop to
+# check whether two values are equal or not:
+while a != b:
+    print("a and b are not equal")
+    break
+else:
+    print("a and b are equal")

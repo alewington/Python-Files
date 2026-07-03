@@ -9,14 +9,14 @@
 # to the end of the string.
 # - step: The step size or stride between characters in the slice.
 # If omitted, it defaults to 1.
-str_text = "Hello World!"
+str_text: str = "Hello World!"
 # Example of slicing a string
 print(str_text[0:5])
 # This will print "Hello" to the console, demonstrating that the slice
 # starts at index 0 and ends at index 5 (exclusive), resulting in "Hello".
 print(str_text[6:11])
 # This will print "World" to the console, demonstrating that the slice
-# starts at index 6 and ends at index 11 (exclusive), resulting in "World
+# starts at index 6 and ends at index 11 (exclusive), resulting in "World".
 # The step parameter can be used to skip characters in the slice
 print(str_text[0:12:2])
 # This will print "HloWrd" to the console, demonstrating that the slice

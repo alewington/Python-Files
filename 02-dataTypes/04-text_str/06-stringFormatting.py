@@ -7,8 +7,8 @@
 
 # We can format strings in differents ways.
 # Using % operator
-name = "Ghast"
-age = 150
+name: str = "Ghast"
+age: int = 150
 print("%s is %d years old" % (name, age))  # Using % method
 
 print("{} is {} years old".format(name, age))  # Using .format() method
@@ -34,13 +34,13 @@ print("I have {0} apples.".format(5))  # Output: I have 5 apples
 
 # string f-string tables with formatting
 
-name1 = "Steve"
-age1 = 30
-city1 = "Nether"
-name2 = "Alex"
-age2 = 25
-city2 = "The End"
-table_with_fstring = (
+name1: str = "Steve"
+age1: int = 30
+city1: str = "Nether"
+name2: str = "Alex"
+age2: int = 25
+city2: str = "The End"
+table_with_fstring: str = (
     f"{'-'*63}\n"
     f"{'Name':^20}|{'Age':^20}|{'City':^20}|\n"
     f"{'-'*63}\n"

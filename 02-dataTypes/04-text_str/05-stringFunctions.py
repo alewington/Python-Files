@@ -5,15 +5,15 @@
 # string functions:
 
 # len() function to get the length of a string
-str_example = "Hello, World!"
+str_example: str = "Hello, World!"
 print(len(str_example))
 # This will print 13 to the console, demonstrating that the len() function
 # returns the number of characters in the string, including spaces
 # and punctuation.
 
 # str() function to convert other data types to a string
-number = 42
-str_number = str(number)
+number: int = 42
+str_number: str = str(number)
 print(str_number)
 # This will print "42" to the console, demonstrating that the str() function
 # converts the integer 42 to a string.
@@ -29,7 +29,7 @@ print(str_example.lower())
 # lower() method converts all characters in the string to lowercase.
 
 # strip() method to remove leading and trailing whitespace
-str_with_whitespace = "   Hello, World!   "
+str_with_whitespace: str = "   Hello, World!   "
 print(str_with_whitespace.strip())
 # This will print "Hello, World!" to the console, demonstrating that the
 # strip() method removes the leading and trailing whitespace from
@@ -48,8 +48,8 @@ print(str_example.split(", "))
 # on the specified delimiter (in this case, ", ").
 
 # join() method to join a list of strings into a single string
-str_list = ["Hello", "World", "from", "Python"]
-joined_str = " ".join(str_list)
+str_list: list[str] = ["Hello", "World", "from", "Python"]
+joined_str: str = " ".join(str_list)
 print(joined_str)
 # This will print "Hello World from Python" to the console, demonstrating that
 # the join() method is used to concatenate the strings in the list with a space
@@ -74,13 +74,13 @@ print(str_example.isalpha())
 # which are not alphabetic characters.
 
 # isdigit() method to check if all characters in the string are digits
-str_digits = "12345"
+str_digits: str = "12345"
 print(str_digits.isdigit())
 # This will print True to the console, demonstrating that the isdigit() method
 # returns True because all characters in the string are digits.
 
 # isspace() method to check if all characters in the string are whitespace
-str_whitespace = "   "
+str_whitespace: str = "   "
 print(str_whitespace.isspace())
 # This will print True to the console, demonstrating that the isspace() method
 # returns True because all characters in the string are whitespace.

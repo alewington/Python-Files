@@ -6,9 +6,9 @@
 # Instead, we can use a convention to indicate that a vae is a constant
 # by using uppercase
 
-PI = 3.14
-GRAVITY = 9.8
-SPEED_OF_LIGHT = 299792458
+PI: float = 3.14
+GRAVITY: float = 9.8
+SPEED_OF_LIGHT: int = 299792458
 
 # In the above code, we have declared three constants: PI, GRAVITY, and
 # SPEED_OF_LIGHT.

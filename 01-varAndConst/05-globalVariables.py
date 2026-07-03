@@ -3,7 +3,7 @@
 # Global variables are variables that are defined outside of any function and
 # can be accessed from anywhere in the code.
 # <-- here we define a global variable
-global_variable = "I am a global variable"
+global_variable: str = "I am a global variable"
 
 
 def my_function():
@@ -28,7 +28,7 @@ my_function()  # Output: I am a global
 
 
 def my_function_with_local_variable():
-    local_variable = "I am a local variable"
+    local_variable: str = "I am a local variable"
     print(local_variable)  # Output: I am a local variable
     return local_variable
     """ Note: The local variable 'local_variable' is only accessible within
@@ -43,7 +43,7 @@ def my_function_with_local_variable():
     """
 
 
-calling_local = my_function_with_local_variable()
+calling_local: str = my_function_with_local_variable()
 print(calling_local)  # Output: I am a local variable, still the same one but
 # was returned to the global scope
 print(global_variable)  # Output: I am a global variable
@@ -61,7 +61,7 @@ print(global_variable)  # Output: I am a global variable
 def modify_global_variable():
     global global_variable
 # <-- we need to declare the variable as global to modify it in a function
-    global_variable = "I have been modified"
+    global_variable: str = "I have been modified"
     """ Note: By declaring 'global global_variable' inside the function
     'modify_global_variable', we are telling Python that we want to use the
     global variable 'global_variable' instead of creating a new local variable.

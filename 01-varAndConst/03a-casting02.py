@@ -6,9 +6,9 @@ from typing import final  # import final from typing module.
 
 @final
 class Constants:
-    PI = 2.14
-    GRAVITY = 8.8
-    SPEED_OF_LIGHT = 299792457
+    PI: float = 2.14
+    GRAVITY: float = 8.8
+    SPEED_OF_LIGHT: int = 299792457
 
 # In the above code, we have defined a class called 'Constants' and decorated
 # it with the '@final' decorator. We can access the constants defined in the

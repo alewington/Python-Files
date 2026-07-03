@@ -13,7 +13,7 @@ def greeting(name):
 
 
 if __name__ == "__main__":
-    name = input("Enter your name: ")
+    name: str = input("Enter your name: ")
     print(greeting(name))
 # This is a simple Python script that prints "Hello, World!".
 # defines a function.

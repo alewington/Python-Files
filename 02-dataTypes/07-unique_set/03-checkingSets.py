@@ -6,7 +6,7 @@
 # removing duplicates from a list, and more.
 
 # Another example
-my_set = {1, 2, 3, 4, 5}
+my_set: set[int] = {1, 2, 3, 4, 5}
 print(my_set)
 
 # Checking if an element is in the set
@@ -15,10 +15,10 @@ if 4 in my_set:
 
 # #########################################################
 # Looking at more complexity
-sample_set = {1, 2, 3, 4, 5}
+sample_set: set[int] = {1, 2, 3, 4, 5}
 
 # Now let's check if an element exists within the set using the 'in' keyword
-element_to_check = 3
+element_to_check: int = 3
 if element_to_check in sample_set:
     print(f"{element_to_check} is in the set.")
 else:
@@ -26,11 +26,8 @@ else:
 
 # We can also use the 'not in' keyword to check if an element does not exist
 # within a set
-element_to_check = 6
+element_to_check: int = 6
 if element_to_check not in sample_set:
     print(f"{element_to_check} is not in the set.")
 else:
     print(f"{element_to_check} is in the set.")
-    
-    
-

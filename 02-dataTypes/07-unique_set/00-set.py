@@ -19,5 +19,5 @@
 # Sets can contain mixed data types (integers, strings, etc.)
 # Sets cannot contain mutable objects like lists or dictionaries
 
-my_set = {1, 2, 3, 4, 5}
+my_set: set[int] = {1, 2, 3, 4, 5}
 print(my_set)

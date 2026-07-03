@@ -6,7 +6,7 @@
 # element appears only once.
 
 # Set operations
-set1 = {1, 2, 3}
+set1: set[int] = {1, 2, 3}
 set2 = {3, 4, 5}
 
 # Union of two sets

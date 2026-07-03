@@ -5,7 +5,7 @@
 # The clear() method removes all items from an existing set. It doesn't
 # return any value.
 
-my_set = {1, 2, 3, 4, 5}
+my_set: set[int] = {1, 2, 3, 4, 5}
 print(my_set)
 
 # Clearing a set

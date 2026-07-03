@@ -7,7 +7,7 @@
 # - Clear all elements from list
 
 # 1. Remove an element by its index
-names = ['Creeper', 'Bob', 'Charlie', 'Steve', 'Alex']
+names: list[str] = ['Creeper', 'Bob', 'Charlie', 'Steve', 'Alex']
 removed_name = names.pop(1)  # Removes 'Bob' and returns it
 print(f"Removed Name: {removed_name}")
 print(f"Remaining Names: {names}")

@@ -7,13 +7,13 @@
 
 # This is an example of a list with strings and numbers:
 
-list = [1, "hello", 2]
-print(list)
+mixed_list: list[int | str] = [1, "hello", 2]
+print(mixed_list)
 
 # This is an example of a list with strings and lists:
 
-list2 = ["hello", ["hi", "hey"], "goodbye"]
-print(list2)
+mixed_list2: list[str | list[str]] = ["hello", ["hi", "hey"], "goodbye"]
+print(mixed_list2)
 
 # You can also add more than one data type to the dictionary.
 
@@ -21,10 +21,13 @@ print(list2)
 
 # This is an example of a dictionary with strings and numbers:
 
-dictionary = {1: "hello", 2: "goodbye"}
+dictionary: dict[int, str] = {1: "hello", 2: "goodbye"}
 print(dictionary)
 
 # This is an example of a dictionary with strings and lists:
 
-dictionary2 = {"hi": ["hello", "hey"], "goodbye": "goodbye"}
+dictionary2: dict[str, list[str] | str] = {
+    "hi": ["hello", "hey"],
+    "goodbye": "goodbye"
+    }
 print(dictionary2)

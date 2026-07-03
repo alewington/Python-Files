@@ -5,7 +5,7 @@
 # argument, which is the element you want to add.
 
 # Example:
-names = ["Alice", "Bob"]
+names: list[str] = ["Alice", "Bob"]
 names.append("Charlie")
 print(names)  # Output: ['Alice', 'Bob', 'Charlie']
 
@@ -13,8 +13,8 @@ print(names)  # Output: ['Alice', 'Bob', 'Charlie']
 # extend() method takes one argument, which is the list you want to add.
 
 # Example:
-names = ["Alice", "Bob"]
-more_names = ["Charlie", "David"]
+names: list[str] = ["Alice", "Bob"]
+more_names: list[str] = ["Charlie", "David"]
 names.extend(more_names)
 print(names)  # Output: ['Alice', 'Bob', 'Charlie', 'David']
 
@@ -22,8 +22,8 @@ print(names)  # Output: ['Alice', 'Bob', 'Charlie', 'David']
 # new list with the elements of both lists.
 
 # Example:
-names = ["Alice", "Bob"]
-more_names = ["Charlie", "David"]
+names: list[str] = ["Alice", "Bob"]
+more_names: list[str] = ["Charlie", "David"]
 names = names + more_names
 print(names)  # Output: ['Alice', 'Bob', 'Charlie', 'David']
 
@@ -32,7 +32,7 @@ print(names)  # Output: ['Alice', 'Bob', 'Charlie', 'David']
 # element and the element itself.
 
 # Example:
-names = ["Alice", "Bob"]
+names: list[str] = ["Alice", "Bob"]
 names.insert(1, "Charlie")
 print(names)  # Output: ['Alice', 'Charlie', 'Bob']
 
@@ -41,17 +41,17 @@ print(names)  # Output: ['Alice', 'Charlie', 'Bob']
 # if the index is greater than or equal to the length of the list.
 
 # Example:
-names = ["Alice", "Bob"]
+names: list[str] = ["Alice", "Bob"]
 names.insert(-1, "Charlie")
 print(names)  # Output: ['Alice', 'Charlie', 'Bob']
 
 # Example:
-names = ["Alice", "Bob"]
+names: list[str] = ["Alice", "Bob"]
 names.insert(-2, "Charlie")
 print(names)  # Output: ['Charlie', 'Alice', 'Bob']
 
 
 # Example:
-names = ["Alice", "Bob"]
+names: list[str] = ["Alice", "Bob"]
 names.insert(0, "Charlie")
 print(names)  # Output: ['Charlie', 'Alice', 'Bob']

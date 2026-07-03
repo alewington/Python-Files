@@ -9,7 +9,7 @@
 # https://www.geeksforgeeks.org/python/difference-between-list-and-array-in-python/
 # I will cover arrays later in the lessons.
 
-names = ["Steve", "Alex"]
+names: list[str] = ["Steve", "Alex"]
 print(names)
 
 # 1. Accessing List Elements

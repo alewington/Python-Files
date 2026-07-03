@@ -11,7 +11,7 @@ for i in range(1, 11, 1):
 
 # These are more contatenated uses but useful when comparing later
 # e.g.
-test = "hello" + "world"
+test: str = "hello" + "world"
 print(test == "helloworld")  # output: True
 
 # You can also add a number and a string together.

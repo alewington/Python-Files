@@ -24,13 +24,13 @@ print("-"*70)
 
 # The multiplication operator can also be used to repeat a list a number of
 # times.
-my_list = [1, 2, 3]
+my_list: list[int] = [1, 2, 3]
 print(my_list*4)  # prints [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
 
 
 # The multiplication operator can also be used to repeat a tuple a number of
 # times.
-my_tuple = (1, 2, 3)
+my_tuple: tuple[int, int, int] = (1, 2, 3)
 print(my_tuple*4)  # prints (1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3)
 
 # The multiplication operator can also be used to repeat a bytearray a number

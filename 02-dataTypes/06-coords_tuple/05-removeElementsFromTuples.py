@@ -20,7 +20,7 @@
 # In this example, the tuple will be named "myTuple" and it will contain 3
 # elements: 0, 1, and 2.
 
-myTuple: tuple[int, int, int] = (0, 1, 2)
+myTuple: tuple[int, ...] = (0, 1, 2)
 print(myTuple)
 
 # Now let's remove the first element from the tuple.
@@ -29,7 +29,7 @@ print(myTuple)
 # tuple.
 # Here is an example:
 
-myTuple: tuple[int, int, int] = myTuple[1:]
+myTuple: tuple[int, ...] = myTuple[1:]
 print(myTuple)
 
 # The result of this will be (1, 2).
@@ -41,7 +41,7 @@ print(myTuple)
 # tuple.
 # Here is an example:
 
-myTuple: tuple[int, int, int] = myTuple[2:]
+myTuple: tuple[int, ...] = myTuple[2:]
 print(myTuple)
 
 # The result of this will be (2).
@@ -53,7 +53,7 @@ print(myTuple)
 # tuple.
 # Here is an example:
 
-myTuple: tuple[int, int, int] = myTuple[:0]
+myTuple: tuple[int, ...] = myTuple[:0]
 print(myTuple)
 
 # The result of this will be ().
@@ -65,7 +65,7 @@ print(myTuple)
 # remove.
 # Here is an example:
 
-myTuple: tuple[int, int, int] = myTuple[:1] + (3,) + myTuple[2:]
+myTuple: tuple[int, ...] = myTuple[:1] + (3,) + myTuple[2:]
 # This is a tuple with 4 elements:
 # 0, 3, 1, and 2.
 print(myTuple)
@@ -74,7 +74,7 @@ print(myTuple)
 # Note that the second element has been replaced by the number 3.
 
 # The example below removes the first element (0) of the tuple.
-t: tuple[int, int, int, int, int] = (1, 2, 3, 4, 5)
+t: tuple[int, ...] = (1, 2, 3, 4, 5)
 print(t)  # Prints (1, 2, 3, 4, 5)
 t = t[1:]  # Remove first element by assigning a slice of the tuple from the
 # second element to the end.

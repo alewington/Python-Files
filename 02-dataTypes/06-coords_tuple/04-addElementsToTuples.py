@@ -10,7 +10,7 @@ emptyTuple: tuple[()] = ()
 print(type(emptyTuple))  # <class 'tuple'>
 
 # Create a non-empty tuple
-nonEmptyTuple: tuple[str, str] = ("Hello", "World")
+nonEmptyTuple: tuple[str, ...] = ("Hello", "World")
 print(type(nonEmptyTuple))  # <class 'tuple'>
 
 # Add an element to the empty tuple
@@ -27,5 +27,5 @@ print(nonEmptyTuple)   # ('Hello', 'World', '!', '?')
 
 emptyTuple: tuple[()] = ()
 print(type(emptyTuple))  # <class 'tuple'>
-nonEmptyTuple: tuple[str, str] = ("Hello", "World")
+nonEmptyTuple: tuple[str, ...] = ("Hello", "World")
 print(type(nonEmptyTuple))  # <class 'tuple'>

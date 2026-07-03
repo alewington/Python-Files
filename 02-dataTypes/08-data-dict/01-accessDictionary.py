@@ -3,7 +3,7 @@
 
 # A minecraft example would be
 # { "key": "value", "key2": "value2" }
-minecraft_biomes = {
+minecraft_biomes: dict[str, str] = {
                     "Pale_Garden": "#FFFFFF",
                     "Beach": "#00FFFF",
                     "Desert": "#EFE4B5",
@@ -17,6 +17,6 @@ print(minecraft_biomes["Pale_Garden"])  # returns #FFFFFF
 print(minecraft_biomes)
 
 # 2. using the index number (starting at zero)
-values01 = list(minecraft_biomes.values())
+values01: list[str] = list(minecraft_biomes.values())
 print(values01)
 print(values01[2])

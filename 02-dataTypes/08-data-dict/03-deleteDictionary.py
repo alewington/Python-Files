@@ -1,6 +1,6 @@
 # Delete values in a dictionary
 
-minecraft_biomes = {
+minecraft_biomes: dict[str, str] = {
                     "Pale_Garden": "#FFFFFF",
                     "Beach": "#00FFFF",
                     "Desert": "#EFE4B5",

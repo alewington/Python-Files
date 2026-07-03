@@ -26,7 +26,7 @@
 
 # A minecraft example would be
 # { "key": "value", "key2": "value2" }
-minecraft_biomes = {
+minecraft_biomes: dict[str, str] = {
                     "Pale_Garden": "#FFFFFF",
                     "Beach": "#00FFFF",
                     "Desert": "#EFE4B5",

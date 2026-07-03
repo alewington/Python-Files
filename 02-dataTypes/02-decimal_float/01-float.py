@@ -6,17 +6,17 @@
 # scientific notation.
 
 # Example of creating a float using a decimal point
-pi = 3.14
+pi: float = 3.14
 print(pi)  # Output: 3.14
 
 # Example of creating a float using scientific notation
-avogadro_number = 6.022e23
+avogadro_number: float = 6.022e23
 print(avogadro_number)  # Output: 6.022e+23
 
 # You can also perform arithmetic operations with floats,
 # such as addition, subtraction, multiplication, and division.
-a = 1.5
-b = 2.5
+a: float = 1.5
+b: float = 2.5
 print(a + b)  # Output: 4.0
 print(a - b)  # Output: -1.0
 print(a * b)  # Output: 3.75

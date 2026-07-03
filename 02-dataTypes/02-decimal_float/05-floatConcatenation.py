@@ -3,8 +3,8 @@
 # conatenate with float
 # Ways to create floats
 
-a = 10.5
-b = (a)  # b is now 10.5
+a: float = 10.5
+b: float = (a)  # b is now 10.5
 
 print(type(b))
 
@@ -15,7 +15,7 @@ print(b)
 
 # you concatenate with string for inserting a variable float in to a sentence.
 # Maybe about the tempreture...
-temp_in_c = float(35.5)
+temp_in_c: float = float(35.5)
 
 print("it is", temp_in_c, " degrees Celsius")
 

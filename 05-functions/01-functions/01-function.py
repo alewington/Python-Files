@@ -6,6 +6,15 @@
 # They can be assigned to variables, stored in data structures, etc.
 # You can even return a function from another function!
 
+# What do they do
+# They allow you to group code together and reuse it.
+# You can think of functions as subroutines in other languages.
+# Functions can be defined anywhere in your code, but they must be defined
+# before you use them.
+# You can also define functions inside other functions.
+# Functions can be defined in modules, classes, or anywhere else that you
+# can put code.
+
 # Definition of a function:
 # 1. The def keyword is used to define a new function.
 # 2. The name of the function follows the def keyword.

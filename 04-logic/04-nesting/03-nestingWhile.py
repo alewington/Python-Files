@@ -3,7 +3,7 @@
 # The following code demonstrates how to nest while loops.
 
 # In this example, the outer loop will run until i is equal to 10.
-i = 1
+i: int = 1
 while i <= 10:
     # The inner loop will run until j is equal to 5.
     j = 1

@@ -21,3 +21,8 @@ else:
 # The above example will print "x is positive" because the condition (x > 0)
 # is true. If x was -5, it would print "x is negative". If x was 0, it would
 # print "x is zero".
+
+# The benefit of using elif statements is that it allows you to check for
+# multiple conditions in a more efficient way. Once a condition is true, the
+# rest of the conditions will not be checked. This can lead to better
+# performance in your code, especially when there are many conditions to check.

@@ -20,3 +20,8 @@ else:
 # is true.
 # If x was -5, it would print "x is negative".
 # If x was 0, it would print "x is zero".
+
+# The benefit of this method is it is easier to read and understand,
+# especially when there are many conditions to check. However,
+# it can also lead to more code being executed than necessary,
+# as all conditions will be checked even if one is true.

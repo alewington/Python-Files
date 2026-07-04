@@ -19,6 +19,3 @@ if x > 0:
 
 # The above example will print "x is positive" because the condition (x > 0)
 # is true.
-
-# If you want to execute a block of code when the condition is false, use an
-# else statement.

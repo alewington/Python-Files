@@ -1,3 +1,5 @@
+# If you want to execute a block of code when the condition is false, use an
+# else statement.
 
 # Syntax:
 #   if <condition>:

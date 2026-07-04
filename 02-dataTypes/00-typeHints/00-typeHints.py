@@ -13,42 +13,26 @@ print(hot_day)  # Output: True
 
 
 def greet(name: str) -> str:
+    """A function that takes a string and returns a greeting message.
+    Args:
+        name (str): The name of the person to greet.
+
+    Returns:
+        str: A greeting message.
+
+    Examples:
+        >>> greet("Alex")
+        'Hello, Alex!'
+    """
     return f"Hello, {name}!"
 # In this example, the function greet takes a parameter name of type str and
 # returns a value of type str.
 
 
-print(greet("Alice"))  # Output: Hello, Alice!
+print(greet("Alex"))  # Output: Hello, Alex!
 
 # You can also use type hints for variables:
 age: int = 30
 height: float = 175.2
 print(age)  # Output: 30
 print(height)  # Output: 175.2
-
-# Type hints can also be used with more complex data types, such as lists and
-# dictionaries:
-
-from typing import List, Dict
-
-
-names: List[str] = ["Alice", "Bob", "Charlie"]
-ages: Dict[str, int] = {
-                        "Alice": 30,
-                        "Bob": 25,
-                        "Charlie": 45,
-                        "Dave": 50
-                        }
-print(names)  # Output: ['Alice', 'Bob', 'Charlie']
-
-# Type hints can also be used with optional types using the Optional type from
-# the typing module:
-
-from typing import Optional
-
-
-def get_age(name: str) -> Optional[int]:
-    if name in ages:
-        return ages[name]
-    else:
-        return None

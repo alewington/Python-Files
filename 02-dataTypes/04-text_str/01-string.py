@@ -20,8 +20,26 @@ print(str_text_double)
 
 # Triple quotes can be used for multi-line strings
 
-str_text_triple: str = """This is a multi-line string.
-It can span multiple lines."""
+str_text_triple: str = """
+This is a multi-line string.
+
+It can span multiple lines.
+
+they can be useful for docstrings or for strings that need to include
+line breaks.
+
+you can also use triple quotes for single-line strings, but it's not common
+practice.
+
+You can use triple quotes for single-line strings, but it's not common
+practice.
+
+You can use " or ' for the triple quotesbut you need to be consistent with the
+opening and closing quotes.
+
+You can use " or ' inside the triple quotes without needing to escape them.
+
+"""
 print(str_text_triple)
 
 # This will print the multi-line string as it is defined.

@@ -26,7 +26,7 @@
 #    If not specified, None is returned implicitly.
 
 
-def say_hello():
+def say_hello() -> str:
     """ This is a docstring.
     It can be accessed using the __doc__ attribute of the function object.
         Args:

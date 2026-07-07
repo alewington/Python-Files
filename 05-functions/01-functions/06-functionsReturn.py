@@ -13,7 +13,7 @@ def choose() -> int:
 
 
 def numbers_to_add() -> list[int]:
-    for i in range(2):
+    for p in range(2):
         c.append(choose())
     return c
 

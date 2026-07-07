@@ -17,10 +17,15 @@
 
 # 1. Factorial
 def fibonacci(n):
-    """
-
+    """return true or false or a value
     Args:
-        n (_type_): _description_
+        n (int): an integer value
+    Returns:
+        int: 0, 1, 2, 3, 5
+    Example:
+        >>> fibonacci(5)
+        0,1,1,2,3,5
+
     """
     if n == 0:
         return 0

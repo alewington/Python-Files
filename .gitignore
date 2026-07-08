@@ -1,3 +1,4 @@
+.gitignore
 .vscode/settings.json
 06-modules/06-modulesCustom__Main__/__pycache__/custom.cpython-313.pyc
 06-modules/05-modulesCustom/__pycache__/custom.cpython-313.pyc

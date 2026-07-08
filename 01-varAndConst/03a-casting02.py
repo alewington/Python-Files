@@ -1,4 +1,6 @@
-# Seeing 'a' in the begging of a filename means the program
+# Casting Constants
+
+# Seeing 'a' in the beginning of a filename means the program
 # is a more advanced at this stage.
 # but you can skip and come back to it later if you want to.
 from typing import final, Final  # import final, Final from typing module.

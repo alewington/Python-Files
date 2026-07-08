@@ -1,4 +1,5 @@
 # Casting
+
 # A datatype is the structure of the data.
 # Python has several built-in datatypes,
 # such as int, float, str, list, tuple, dict, etc.

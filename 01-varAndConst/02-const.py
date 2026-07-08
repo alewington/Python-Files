@@ -22,3 +22,4 @@ SPEED_OF_LIGHT: int = 299792458
 # ADVANCED
 # In Python, we can also use the 'final' keyword from the 'typing' module to
 # indicate that a variable is a constant.
+# Final will prevent us from changing the value of this variable.

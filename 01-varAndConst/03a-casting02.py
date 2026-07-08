@@ -1,10 +1,10 @@
 # Seeing 'a' in the begging of a filename means the program
 # is a more advanced at this stage.
 # but you can skip and come back to it later if you want to.
-from typing import final  # import final from typing module.
+from typing import final, Final  # import final, Final from typing module.
 
 
-@final
+@final  # Note lower 'f' for 'final'
 class Constants:
     PI: float = 2.14
     GRAVITY: float = 8.8
@@ -24,3 +24,11 @@ print(Constants.SPEED_OF_LIGHT)
 # 2.14
 # 8.8
 # 299792457
+
+# OR
+
+MAX_USERS: Final[int] = 20  # Note Capital 'F' for 'Final'
+
+
+# Final is for individual variables, not classes.
+# final is for classes with @final decorator.

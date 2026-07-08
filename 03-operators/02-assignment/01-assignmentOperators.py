@@ -44,7 +44,7 @@ print(x)
 
 # Division Assignment
 # Useful for dividing a variable.
-y: int = 50
+y: float = 50
 y /= 5
 print(y)
 

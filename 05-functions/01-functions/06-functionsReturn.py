@@ -41,7 +41,7 @@ def layout() -> str:
     Args:
         None
     Returns:
-        str: _description_
+        str: f string with values
     Example:
         >>> layout()
         The sum of 5 and 7 is 12.

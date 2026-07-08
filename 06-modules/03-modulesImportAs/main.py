@@ -8,4 +8,6 @@
 
 import math as m  # Importing math as m
 
+# think of it a renaming a module for the program.
+
 print(m.sqrt(16))  # Using m instead of math

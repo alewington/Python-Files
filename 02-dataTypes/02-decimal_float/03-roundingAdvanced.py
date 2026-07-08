@@ -1,4 +1,5 @@
-# other rounding methods
+# Other Rounding Methods
+
 from decimal import (
     ROUND_HALF_UP,
     ROUND_HALF_DOWN,

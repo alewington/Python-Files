@@ -1,4 +1,5 @@
 # Evaluating statements with boolean values
+
 # True and False are reserved words in Python, so they cannot be used
 # as variable names
 # They are used to represent the truth value of an expression

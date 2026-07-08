@@ -1,4 +1,4 @@
-# string Formatting
+# String Formatting
 
 # strings are immutable in Python.
 # Immutable means that once a string is created, it cannot be changed.

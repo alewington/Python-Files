@@ -1,3 +1,5 @@
+# Lists
+
 # Lists are ordered collections of items. Items can be of different types.
 # For example, a list could contain strings, integers, and even other lists.
 # 0. Declare an empty list

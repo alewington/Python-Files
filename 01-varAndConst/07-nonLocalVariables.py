@@ -1,10 +1,10 @@
 # Non Local Variables
 
 def function_one() -> None:
-    x: int = 1
+    x: int = 1  # local to this function.
 
     def function_two() -> None:
-        nonlocal x  # non local variable, inline to x.
+        nonlocal x  # non local variable, inline to x of function_one().
         x = x  # so it can be used in this scope.
         y = x + 10
         print(y)

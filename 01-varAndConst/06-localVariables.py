@@ -14,8 +14,8 @@ def add_two_numbers() -> None:
             >>> add_two_numbers()
             4
     """
-    a: int = 1
-    b: int = 3
+    a: int = 1  # local to function
+    b: int = 3  # local to function
     print(a+b)
 
 

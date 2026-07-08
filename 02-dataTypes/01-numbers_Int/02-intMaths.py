@@ -1,4 +1,4 @@
-# Simple interger Maths
+# Simple integer Maths
 
 # Addition
 print(3+5)  # prints 8

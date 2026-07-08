@@ -1,6 +1,6 @@
-# Assigning multiples
-# Many to Many
+# Assigning multiple Variables at once
 
+# Many to Many
 a, b, c = 1, 2, 3
 print(a)
 print(b)

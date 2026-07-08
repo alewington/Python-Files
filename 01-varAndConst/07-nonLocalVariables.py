@@ -1,5 +1,9 @@
 # Non Local Variables
 
+# Non local variables are variables that are not local to a function, but
+# are defined outside of a function, but are used inside a nested function.
+
+
 def function_one() -> None:
     x: int = 1  # local to this function.
 

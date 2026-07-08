@@ -2,6 +2,15 @@
 import custom as c
 
 if __name__ == "__main__":
+    """custom upper text module
+    Args:
+        text (str): text to uppercase
+    Returns:
+        str: uppercase text
+    Example:
+        >>> uptext("bob")
+        BOB
+    """
     print(c.uptext("bob"))
 
 # if you run this file directly, it will call the main() function

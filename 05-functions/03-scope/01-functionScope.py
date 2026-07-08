@@ -24,6 +24,15 @@ x = 5  # x is a global variable
 
 
 def my_function():
+    """ print values from global and local
+    Args:
+        None
+    Returns:
+        None
+    Example:
+        >>> my_function()
+        10
+    """
     global z
     y = 10  # y is a local variable
     print(y)

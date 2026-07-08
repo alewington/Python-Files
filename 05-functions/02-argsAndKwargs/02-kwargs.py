@@ -7,6 +7,18 @@
 # 3. The names of the arguments don't have to be unique
 
 def program_version(version: str, **kwargs) -> None:
+    """ Output Software information
+    Args:
+        version (str): version information
+        system: kwargs: bitrate, system
+    Returns:
+        None
+    Example:
+        >>> program_version('1.5', bitrate=1.8, system='Windows') <EOT>
+        " Version: 1.5 "
+        " System: {'system': 'Windows', 'bitrate': 1.8} "
+        " bitrate set to : 1.8 "
+    """
     print('version', version)
     print('System:', kwargs)
 

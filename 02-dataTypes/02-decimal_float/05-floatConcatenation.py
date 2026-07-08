@@ -3,12 +3,12 @@
 # conatenate with float
 # Ways to create floats
 
-a: float = 10.5
-b: float = (a)  # b is now 10.5
+a: str = '10.5'
+b: float = float(a)  # b is now 10.5
 
 print(type(b))
 
-a = "0.5"
+a: str = "0.5"
 b = float(a)  # b is now 1.5
 print(type(b))
 print(b)

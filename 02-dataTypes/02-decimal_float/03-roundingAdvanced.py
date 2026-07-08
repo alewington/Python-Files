@@ -8,7 +8,7 @@ from decimal import (
     Decimal
 )
 
-decimal_d: float = Decimal('1.235')
+decimal_d = Decimal('1.235')
 print(decimal_d.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 # Output: 1.24
 print(decimal_d.quantize(Decimal('0.01'), rounding=ROUND_HALF_DOWN))

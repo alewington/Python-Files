@@ -22,5 +22,5 @@ print(new_coordinate)
 
 # the following line will throw an error:
 
-coordinates[0] = 5  # this will throw an error
-print(coordinates)
+# coordinates[0] = 5  # this will throw an error
+# print(coordinates)

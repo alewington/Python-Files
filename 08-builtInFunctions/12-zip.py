@@ -9,7 +9,13 @@
 # as the shortest input iterable.
 
 # Example usage of zip()
-list1 = [1, 2, 3]
-list2 = ['a', 'b', 'c']
-zipped = zip(list1, list2)
-print(list(zipped))  # Output: [(1, 'a'), (2, 'b'), (3, 'c')]
+list_one = [1, 2, 3, 4, 5]
+list_two = ['a', 'b', 'c', 'd', 'e']
+
+zipped = zip(
+    list_one,
+    list_two
+    )
+
+print(list(zipped))  
+# Output: [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e')]

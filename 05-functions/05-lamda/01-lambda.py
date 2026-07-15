@@ -4,12 +4,6 @@
 # arguments, but can only have one expression. It is often used for short,
 # simple functions that are not reused elsewhere in the code.
 
-# Example usage of a lambda function
-add = lambda x, y: x + y
-# it is recommended to use a normal function instead of a lambda function for
-# better readability and maintainability.
-print(add(5, 3))
-
 # Lambda functions are often used in conjunction with built-in functions like
 # map(), filter(), and sorted().
 # The benefit is that they allow you to define a function in a single line,

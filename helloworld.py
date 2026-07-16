@@ -1,6 +1,7 @@
 print("Hello, World!")
 
 
+# function to greet a person by name
 def greeting(name: str) -> str:
     """Returns a greeting message for the given name.
 

@@ -8,56 +8,56 @@
 from enum import Enum
 
 
-class colour(Enum):
+class color(Enum):
     RED = 1
     GREEN = 2
     BLUE = 3
 
 
-# Example usage of the colour enum
-def print_colour(colour):
-    """Prints the name of the colour.
+# Example usage of the color enum
+def print_color(color):
+    """Prints the name of the color.
   Args:
-        colour (colour): An instance of the colour enum.
+        color (color): An instance of the color enum.
     Returns:
         None
     Raises:
         None
     Example:
-        >>> print_colour(colour.RED)
-        The colour is Red.
+        >>> print_color(color.RED)
+        The color is Red.
     """
-    if colour == colour.RED:
-        print("The colour is Red.")
-    elif colour == colour.GREEN:
-        print("The colour is Green.")
-    elif colour == colour.BLUE:
-        print("The colour is Blue.")
+    if color == color.RED:
+        print("The color is Red.")
+    elif color == color.GREEN:
+        print("The color is Green.")
+    elif color == color.BLUE:
+        print("The color is Blue.")
     else:
-        print("Unknown colour.")
+        print("Unknown color.")
 
 
-# Testing the print_colour function with different enum values
-print_colour(colour.RED)    # Output: The colour is Red.
-print_colour(colour.GREEN)  # Output: The colour is Green.
+# Testing the print_color function with different enum values
+print_color(color.RED)    # Output: The color is Red.
+print_color(color.GREEN)  # Output: The color is Green.
 
-# Testing the print_colour function with an unknown colour
-# print_colour(4)  # Output: Unknown colour.
+# Testing the print_color function with an unknown color
+# print_color(4)  # Output: Unknown color.
 
 # Accessing enum members and their values
-print(colour.RED)          # Output: colour.RED
-print(colour.RED.name)     # Output: RED
-print(colour.RED.value)    # Output: 1
+print(color.RED)          # Output: color.RED
+print(color.RED.name)     # Output: RED
+print(color.RED.value)    # Output: 1
 
 # Iterating over enum members
-for colour in colour:
-    print(f"{colour.name} = {colour.value}")
+for c in color:
+    print(f"{c.name} = {c.value}")
 
 # Comparing enum members
-print(colour.RED == colour.GREEN)  # Output: False
-print(colour.RED == colour.RED)    # Output: True
+print(color.RED == color.GREEN)  # Output: False
+print(color.RED == color.RED)    # Output: True
 
 # enums can also be used in switch-like statements using if-elif-else
-# constructs, as shown in the print_colour function. They provide a clear
+# constructs, as shown in the print_color function. They provide a clear
 # and structured way to handle a set of related constants, improving code
 # clarity and reducing the likelihood of errors.

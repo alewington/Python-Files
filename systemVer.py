@@ -1,6 +1,5 @@
 # python version being run is shown in the output
 import sys
-# njnjfn
 
 print(sys.version)
 """

@@ -1,0 +1,7 @@
+{
+    "Mob_1": {
+        "id": 1,
+        "name": "Skeleton",
+        "health": 20
+    }
+}
